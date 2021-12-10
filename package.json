@@ -1,0 +1,23 @@
+{
+  "name": "crud",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./server.js",
+    "start:dev": "nodemon ./server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "mongoose": "^6.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.15"
+  }
+}
